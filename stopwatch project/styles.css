@@ -1,3 +1,8 @@
+@font-face {
+	font-family: 'MyWebFont';
+	src: url('https://www.1001fonts.com/digital-dream-font.html') format('truetype');
+}
+
 .stopwatch {
     width: 500px;
     height: 400x;
@@ -8,6 +13,7 @@
     width: 50%;
     text-align: center;
     margin-top: 100px;
+	font-family: 'VT323', monospace;
 }
 
 .myButton {
@@ -17,8 +23,8 @@
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
-	font-family:Impact;
-	font-size:19px;
+	font-family: 'VT323', monospace;
+	font-size:25px;
 	padding:16px 31px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #2b665e;

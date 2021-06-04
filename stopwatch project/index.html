@@ -7,12 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <div class="stopwatch">
         <h6>Javascript Stopwatch</h6>
-        <p><span id="seconds">00</span>:<span id="tens">00</span></p>
+        <p><span class="stopwatch" id="seconds">00</span>:<span id="tens">00</span></p>
         <button id="button-start" type="button" class="myButton" onclick="startTimer()">Start</button>
         <button id="button-stop" type="button" class="myButton" onclick="stopTimer()">Stop</button>
         <button id="button-reset" type="button" class="myButton" onclick="resetTimer()">Reset</button>
